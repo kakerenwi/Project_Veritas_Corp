@@ -1,6 +1,6 @@
 # Below is the resource block which creates EC2 Instance
 resource "aws_instance" "test" {
-  count = 3
+  count = 4
   ami           = "ami-02396cdd13e9a1257"
   instance_type = "t2.micro"
   tags = {
